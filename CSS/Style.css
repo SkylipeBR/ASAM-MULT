@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+
+/* tudo */
+* 
+{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background: #101f49;
+}
+
+/* primeira seção */
+.primary-sec {
+
+    height: 100vh;
+    background: url(../Images/back/1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+/* Config menu */
+.menu .nav-menu
+{
+   display: flex;   
+   justify-content: space-around;
+   align-items: center;
+   height: 15vh;
+   color: #000; 
+    border: 2px solid #061231;
+
+}
+
+/* list do menu */
+ .menu .nav-menu .list-menu 
+{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+
+
+/* Link do menu */
+ .menu .nav-menu .list-menu li a
+{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 500;
+    color: #fff;
+    transition: 0.5s;
+}
+
+/* Pós menu */
+ .menu .nav-menu .list-menu li a:hover
+{   
+    color: #425690;
+}
+
+
+/* config do primeiro container */
+.container-pri
+{
+    padding: 30px;
+    height: 100%;
+    background: #304479;
+    text-align: center;
+}
+
+
+ .multiplique
+ {
+    padding:    50px 30px;
+    margin: auto auto;
+ }
+
+ @keyframes mult{
+     0%
+     {
+         color: #fff;
+     }
+     50%
+     {
+         color: #e1f228;
+     }
+     100%
+     {
+         color: fff;
+     }
+ }
+
+ .multiplique #titulo-multiplique
+ {
+     text-align: center;
+     font-weight: bold;
+     font-size: 3em;
+     color: #fff;
+     text-transform: uppercase;
+     font-family: 'Kdam Thmor Pro', sans-serif;
+     animation: mult 3s linear infinite;
+ }
+
+.multiplique .container-multiplique
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0px;
+}
+
+.multiplique .container-multiplique .text-multiplique
+{
+    width: 50%;
+    color: #fff;
+    text-align: left;
+    font-size: 1.3em;
+}
+
+.multiplique .container-multiplique .text-multiplique #text-mult
+{
+    font-weight: bold;
+    color: #e4f33d;
+}
+
+.multiplique .expli-mult
+{
+    text-align: center;
+    padding: 30px;
+    margin: auto auto;
+    width: 70%;
+}
+
+.multiplique .expli-mult #paragrafo-expli
+{
+    font-size: 1.3em;
+    color: #fff;
+}
+
+
+/* SEÇÃO LOGO */
+.logo .container-logo
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.logo .container-logo #logo-sec
+{
+    border-radius: 50%;
+    z-index: 4;
+    box-shadow: 1px 20px 30px 10px #000;
+}
+
