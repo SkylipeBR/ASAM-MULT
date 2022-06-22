@@ -207,6 +207,12 @@ body
     transform: scale(102%);
 }
 
+.tema .container-tema a
+{
+    color: #000;
+    text-decoration: none;
+}
+
 .parallax-geral
 {
     width: 100%;
