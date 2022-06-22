@@ -32,7 +32,8 @@ body
    display: flex;   
    justify-content: space-around;
    align-items: center;
-   height: 15vh;
+   height: 100%;
+   padding: 30px 0px;
    color: #000; 
     border: 2px solid #061231;
 
@@ -392,6 +393,7 @@ body
     .menu .nav-menu .list-menu 
     {
         flex-wrap: wrap;
+        padding: 15px;
     }
 
     .menu .nav-menu
@@ -402,6 +404,7 @@ body
     .multiplique .container-multiplique
     {
         flex-wrap: wrap;
+        text-align: center;
     }
 }
 
@@ -414,18 +417,39 @@ body
 
     .parallax-geral .parallax-tatica h2
     {
-        font-size: 1.1em;
+        font-size: 1.3em;
     }
 
     .parallax-geral  #titulo-parallax
     {
         text-align: center;
-        font-size: 1.5em;
+        font-size: 1.3em;
     }
 
     .footer #titulo-paragrafo
     {
         width: 100%;
-        font-size: 1.5em;
+        font-size: 1.4em;
+    }
+
+    .parallax-geral #paragrafo-parallax
+    {
+        width: 100%;
+    }
+
+    .multiplique .container-multiplique .text-multiplique
+    {
+        width: 70%;
+        text-align: center;
+    }
+
+    .multiplique .expli-mult
+    {
+        width: 100%;
+    }
+    
+    .parallax-geral .parallax-conteudo
+    {
+        padding: 70px;
     }
 }
