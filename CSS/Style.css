@@ -35,7 +35,8 @@ body
    height: 100%;
    padding: 30px 0px;
    color: #000; 
-    border: 2px solid #061231;
+   text-align: center;
+   border: 2px solid #061231;
 
 }
 
@@ -45,6 +46,7 @@ body
     display: flex;
     gap: 50px;
     list-style: none;
+    text-align: center;
 }
 
 
@@ -229,7 +231,7 @@ body
     background: linear-gradient(#000000c6, #000000ca), url(../Images/Historia\ do\ trabalho\ -\ post.png);
     color: #fff;
     text-shadow: 0px 0px 20px #e4f062;
-    background-size: cover;
+    background-size: contain;
     background-attachment: fixed;
 
     font-weight: bold;
